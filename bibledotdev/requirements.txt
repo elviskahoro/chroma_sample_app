@@ -1,0 +1,8 @@
+chromadb
+orjson
+opentelemetry-exporter-otlp-proto-http
+reflex
+rich
+typer
+traceloop-sdk
+uuid7
