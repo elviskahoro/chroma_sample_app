@@ -99,6 +99,6 @@ After querying the search text we display them using a "rich" table for nicer fo
 
 </SwmSnippet>
 
-&nbsp;
+I plan to eventually build some proper UI using [Reflex](https://reflex.dev/) to eventually host this as a web app. I also need to investigate a bug with some of the text highlighting for the console output--currently I have it set to highlight any keywords from the query text but it seems to not work for every line.
 
 <SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBY2hyb21hX3NhbXBsZV9hcHAlM0ElM0FlbHZpc2thaG9ybw==" repo-name="chroma_sample_app"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
