@@ -66,7 +66,7 @@ def search(
         )
 
     app_connection_state: AppConnectionStateType = (
-        AppConnectionStateType.IS
+        AppConnectionStateType.IS_ONLINE
         if app_connection_state_raw
         else AppConnectionStateType.IS_OFFLINE
     )
