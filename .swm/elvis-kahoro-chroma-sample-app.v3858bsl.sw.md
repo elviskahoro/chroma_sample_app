@@ -71,7 +71,7 @@ After the data is loaded into Chroma we can query the data using our CLI tool: <
 Searching through verses is run also run as a module similarly to our ETL pipeline.\
 `python -m bibledotdev.cli verses search "query text"`
 
-<SwmSnippet path="bibledotdev/bibledotdev/cli/verses/__main__.py" line="52">
+<SwmSnippet path="/bibledotdev/bibledotdev/cli/verses/__main__.py" line="52">
 
 ---
 
@@ -95,7 +95,7 @@ def search(
         )
 
     app_connection_state: AppConnectionStateType = (
-        AppConnectionStateType.IS
+        AppConnectionStateType.IS_ONLINE
         if app_connection_state_raw
         else AppConnectionStateType.IS_OFFLINE
     )
